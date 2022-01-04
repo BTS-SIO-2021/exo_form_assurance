@@ -1,0 +1,58 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.bg
+{
+    background-color: azure;
+}
+.typo
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pad
+{
+    padding: 2%;
+}
+form div
+{
+    margin: 2%;
+}
+form
+{
+    width: 50%;
+}
+#title
+{
+    font-size: 50px;
+    animation: anim_title 2s infinite;
+}
+.form_assurance
+{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+.bord
+{
+    border-radius: 25px;
+}
+@keyframes anim_title
+{
+    0%
+    {
+        letter-spacing: normal;
+    }
+    50%
+    {
+        letter-spacing: -5px;
+    }
+}
